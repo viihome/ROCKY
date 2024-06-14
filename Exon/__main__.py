@@ -72,12 +72,12 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="help_back"),
-        InlineKeyboardButton(text=f"🥀 sᴛᴀᴛs 🥀", callback_data="stats_callback"),
+        InlineKeyboardButton(text=f" ʜᴇʟᴘ ", callback_data="help_back"),
+        InlineKeyboardButton(text=f" sᴛᴀᴛs ", callback_data="stats_callback"),
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="ABG_"),
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ ", callback_data="ABG_"),
+        InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
@@ -712,7 +712,7 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 animation="https://telegra.ph/file/8dea393ddf4fc2e339179.gif",
                 caption=f"""
-ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ✨ .....
+ㅤ {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ  .....
 
 ━━━━━━━━━━━━━
 ⍟ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/{OWNER_USERNAME})
